@@ -1,0 +1,92 @@
+h2 {
+    padding: 1.2rem 0;
+}
+
+.poke-info, .poke-stats, .poke-abilities {
+    padding: 0 10px;
+}
+
+.poke-base {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.poke-details > * {
+    flex-basis: 100%;
+}
+
+.poke-img {
+    text-align: center;
+}
+
+.poke-img img {
+    width: 300px;
+    height: 300px;
+}
+
+.poke-info {
+    font-size: 1.2rem;
+}
+
+.poke-info span {
+    font-weight: bold;
+}
+
+.poke-info .name {
+    text-transform: capitalize;
+}
+
+.poke-info .type {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: 0 0.2rem;
+    font-size: .625rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.types-list {
+    display: flex;
+}
+
+.poke-stats li span {
+    font-weight: bold;
+}
+
+.poke-abilities .ability {
+    text-transform: capitalize;
+}
+
+#poke .div-btn-back {
+    text-align: center;
+    padding: 1.2rem;
+}
+
+#poke .div-btn-back .btn-back {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 336px){
+    .poke-img img {
+       width: 280px;
+       height: 280px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .poke-base {
+        display: block;
+    }
+    .poke-img img {
+        width: 180px;
+        height: 180px;
+    }
+}
