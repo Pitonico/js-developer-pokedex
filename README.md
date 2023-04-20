@@ -1,6 +1,8 @@
 # DIO Desafio JS Developer - Pokedex
 
-Informaçãos básicas a princípio, mas ao clicar no pokemon obtém mais detalhes sobre o mesmo
+Desafio de Projeto DIO front-end utilizando **HTML , CSS e javascript puro**.
+
+Informaçãos básicas a princípio sobre pokémon, mas ao clicar no mesmo obtém mais detalhes.
 
 Atualizações futuras:
 - :white_check_mark: detalhes do pokémon ao clicar
